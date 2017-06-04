@@ -19,9 +19,9 @@ describe('protractor with typescript typings', () => {
   });
 
   it('should list todos', function() {
-    let todoList = element.all(by.repeater('todo in todoList.todos'));
+    let todoList = element.all(by.repeater('todo in todoList.todos1'));
     expect(todoList.count()).toEqual(2);
-    expect(todoList.get(3).getText()).toEqual('build an AngularJS app');
+    expect(todoList.get(1).getText()).toEqual('build an AngularJS app');
     //build an angular app
   });
 });
