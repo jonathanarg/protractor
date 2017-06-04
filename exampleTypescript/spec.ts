@@ -14,8 +14,8 @@ describe('protractor with typescript typings', () => {
 
   it('should greet the named user', () => {
     element(by.model('yourName')).sendKeys('Julie');
-    let greeting = element(by.binding('yourName1'));
-    expect(greeting.getText()).toEqual('Hello Julie!');
+    let greeting = element(by.binding('yourName'));
+    expect(greeting.getText(2)).toEqual('Hello Julie!');
   });
 
   it('should list todos', function() {
