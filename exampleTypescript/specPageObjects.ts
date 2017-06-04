@@ -7,6 +7,6 @@ describe('angularjs homepage', () => {
     let angularHomepage = new AngularHomepage();
     angularHomepage.get();
     angularHomepage.setName('Julie');
-    expect(angularHomepage.getGreeting()).toEqual('Hello Julie!');
+    expect(angularHomepage.getGreeting()).toEqual('Hello Julie');
   });
 });
