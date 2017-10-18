@@ -18,7 +18,7 @@ export let config: Config = {
 //   specs: ['spec.ts',
 //          'spec2.ts'],
   suites: {
-  	logIn1: [
+  	0logIn1: [
 	  'spec111.ts'
 	  ],
         logInSaa1s: 'spec.ts',
