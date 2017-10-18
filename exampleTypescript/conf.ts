@@ -18,13 +18,13 @@ export let config: Config = {
 //   specs: ['spec.ts',
 //          'spec2.ts'],
   suites: {
-  	00_logIn: [
+  	logIn: [
 	  'spec.ts'
 	  ],
-        00_logInSaas: 'spec.ts',
-        01_releasesPageObject: ['spec.ts',
-                                'spec2.ts',
-                                'spec3.ts']
+        logInSaas: 'spec.ts',
+        releasesPageObject: ['spec.ts',
+			     'spec2.ts',
+			     'spec3.ts']
 },
 	
 //   suites: {
