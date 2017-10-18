@@ -17,22 +17,22 @@ export let config: Config = {
   },
 //   specs: ['spec.ts',
 //          'spec2.ts'],
-//   suites: {
-//   specs: [
-//     'spec.ts',
-//     'spec2.ts'
-//     ],
-//   search: [
-//     'tests/e2e/contact_search/**/*Spec.js',
-//     'tests/e2e/venue_search/**/*Spec.js'
-//   ] 
-// },
-  suites: {		
-	00_logIn: ['login/login.spec.ts'],
-        00_logInSaas: 'login/loginSaas.spec.ts',
-        01_releasesPageObject: ['releases/01.1.releasesPage.spec.ts',
-                                  'releases/01.2.createRelease.spec.ts',
-                                  'releases/01.3.releaseActions.spec.ts']
+  suites: {
+	  specs: [
+	    'spec.ts',
+	    'spec2.ts'
+	    ],
+	  search: [
+	    'tests/e2e/contact_search/**/*Spec.js',
+	    'tests/e2e/venue_search/**/*Spec.js'
+	  ] 
+},
+//   suites: {		
+// 	00_logIn: ['/login/login.spec.ts'],
+//         00_logInSaas: '/login/loginSaas.spec.ts',
+//         01_releasesPageObject: ['/releases/01.1.releasesPage.spec.ts',
+//                                   '/releases/01.2.createRelease.spec.ts',
+//                                   '/releases/01.3.releaseActions.spec.ts'],
 //         02_externalTask: '/tasks/externalTask.spec.ts',
 //         03_usersPageObjects: ['/users/03.1.users.spec.ts',
 //                                 '/users/03.2.localUsers.spec.ts',
@@ -80,7 +80,7 @@ export let config: Config = {
 //         102_mobileHomePage: '/saas/homePage.tablet.spec.ts',
 //         103_invitation: '/invite/invite.spec.ts',
 //         104_sanity_saas: '/saas/sanity/sanity_saas.spec.ts'
-	},
+// 	},
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
   // You could set no globals to true to avoid jQuery '$' and protractor '$'
