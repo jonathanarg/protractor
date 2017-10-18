@@ -19,7 +19,7 @@ export let config: Config = {
   suites: {
   specs: [
     'spec.ts',
-    'spec1.ts'
+    'spec2.ts'
     ],
   search: [
     'tests/e2e/contact_search/**/*Spec.js',
