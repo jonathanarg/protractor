@@ -15,7 +15,8 @@ export let config: Config = {
   capabilities: {
     browserName: 'chrome'
   },
-   specs: ['asyncAwait/*.ts'],
+   specs: ['spec.ts',
+          'spec2.ts'],
 //   suites: {
 //   specs: [
 //     'spec.ts',
