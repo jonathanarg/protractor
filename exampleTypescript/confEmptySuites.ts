@@ -18,15 +18,14 @@ export let config: Config = {
 //   specs: ['spec.ts',
 //          'spec2.ts'],
 suites: {
-   	logIn2: [
- 	  'spec111.ts'
- 	  ],
-         logInSaas2: 'spec.ts',
-         releasesPageObject2: ['0spec.ts',
-			     'spec2.ts',
- 			     'spec3.ts']
+//    	logIn2: [
+//  	  'spec111.ts'
+//  	  ],
+//          logInSaas2: 'spec.ts',
+//          releasesPageObject2: ['0spec.ts',
+// 			     'spec2.ts',
+//  			     'spec3.ts']
  },
-	
 
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
