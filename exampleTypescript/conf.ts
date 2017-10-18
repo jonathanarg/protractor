@@ -15,17 +15,17 @@ export let config: Config = {
   capabilities: {
     browserName: 'chrome'
   },
-  // specs: [ '*.ts' ],
-  suites: {
-  specs: [
-    'spec.ts',
-    'spec2.ts'
-    ],
-  search: [
-    'tests/e2e/contact_search/**/*Spec.js',
-    'tests/e2e/venue_search/**/*Spec.js'
-  ] 
-},
+   specs: ['*spec.ts'],
+//   suites: {
+//   specs: [
+//     'spec.ts',
+//     'spec2.ts'
+//     ],
+//   search: [
+//     'tests/e2e/contact_search/**/*Spec.js',
+//     'tests/e2e/venue_search/**/*Spec.js'
+//   ] 
+// },
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
   // You could set no globals to true to avoid jQuery '$' and protractor '$'
